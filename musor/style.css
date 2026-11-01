@@ -1,0 +1,62 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.header-left-half {
+    padding: 0px 10px;
+}
+
+.header-right-half {
+    display: flex;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 10px 10px;
+}
+
+.chat-upperhalf {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px
+}
+
+.avatar {
+    width: 48px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+time {
+    color: grey;
+}
+
+.chat-lowerhalf {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px
+}
