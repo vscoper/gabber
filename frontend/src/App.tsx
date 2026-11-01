@@ -12,14 +12,13 @@ function App() {
     };
 
   return (
-    <html>
-      <body>
+      <div className="wrap-app">
         <section className="leftHalf">
           <section className="section-head">
             <div className="sidebarbutton">
               <button id='sidebarButton' className='text' onClick={toggleSidebar}>☰</button>
             </div>
-            <Sidebar isOpen={isSidebarOpen} onToggle={toggleSidebar}></Sidebar>
+            <Sidebar isOpen={isSidebarOpen} onToggle={toggleSidebar}/>
             <div className="searchbar">
               {/* <img src={searcher} alt="search" id='search-pic'/> */}
               <input type="text" placeholder='Search..' className='text' id='search-input'/>
@@ -63,8 +62,7 @@ function App() {
             <h2 className="text" id='textDef'>Start messaging with some folk..</h2>
           </div>
         </section>
-      </body>
-    </html>
+      </div>
   )
 }
 

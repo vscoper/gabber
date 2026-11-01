@@ -18,6 +18,15 @@ body {
   overflow: hidden;
 }
 
+.wrap-app {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 #root {
   display: flex;
   flex-direction: row;
@@ -75,11 +84,13 @@ body {
 }
 
 #search-input {
+  width: 100%;
   background-color: #242F3D;
   border: none;
 }
 
 #search-input:focus {
+  outline: none;
   color: #7a8794;
   border: none;
 }
