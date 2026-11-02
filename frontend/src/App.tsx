@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Sidebar } from './components/Sidebar'
+import { Chat } from './components/Chat'
 
 import avaOfMan from './assets/man-ava.jpg'
 
@@ -59,7 +60,8 @@ function App() {
         </section>
         <section className="rightHalf">
           <div id="wrapDef">
-            <h2 className="text" id='textDef'>Start messaging with some folk..</h2>
+            {/* <h2 className="text" id='textDef'>Start messaging with some folk..</h2> */}
+            <Chat/>
           </div>
         </section>
       </div>

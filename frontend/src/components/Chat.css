@@ -1,0 +1,137 @@
+* {
+  font-family: Arimo, monospace;
+  font-weight: 300;
+}
+
+.text {
+  color: #6D7883;
+  padding: 0;
+  margin: 0;
+}
+
+.wrap-all {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: none;
+    border-radius: 0%;
+    box-sizing: border-box;
+}
+
+.chat-ava {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chat-info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1b2733;
+}
+.chat-realname-ava {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.chat-options {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-option-icon {
+  fill: #6D7883;
+}
+
+.chat-option-icon:hover {
+  fill: #818d99;
+}
+
+.wrap-message {
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 26px;
+    background-color: #2a4057;
+}
+
+#mess-in {
+    background-color: #182431;
+    margin-left: 10px;
+    border-radius: 3px 26px 26px 26px;
+}
+
+#mess-out {
+    border-radius: 26px 26px 3px 26px;
+}
+
+.chat-main-section {
+    flex: 1;
+    overflow-y: auto;
+    height: max-content;
+}
+
+.chat-incoming-message {
+    display: flex;
+    padding: 10px;
+}
+
+.chat-outcoming-message {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+
+}
+
+.chat-input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #1e2b38;
+}
+
+.chat-input {
+    width: 100%;
+    border: none;
+    background-color: #1e2b38;
+    color: #6D7883;
+    margin: 0;
+    outline: none;
+}
+
+.chat-input-field {
+    width: 100%;
+    padding: 0px 10px ;
+}
+
+.chat-input-options {
+    display: flex;
+    gap: 10px;
+}
+
+.wrap-date {
+    display: flex;
+    justify-content: center;
+}
+
+.chat-message-date {
+    display: flex;
+    background-color: #1b2733;
+    color: #6D7883;
+    padding: 8px;
+    border: none;
+    border-radius: 26px;
+    font-size: 12px;
+}
+
+#smiley {
+    fill: none;
+    stroke: #6D7883;
+}
+
+#smiley:hover {
+    stroke: #818d99;
+}

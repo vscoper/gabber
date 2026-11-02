@@ -249,11 +249,12 @@ time {
 
 #wrapDef {
   background-color: rgba(77, 77, 88, 0.527) ;
-  border-radius: 40px;
-  padding: 6px;
+  width: 100%;
 }
 
 #textDef {
+  border-radius: 40px;
+  padding: 6px;
   margin: 0;
   font-size: 12px;
 }
