@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
+import './Sidebar.css'
+
 import avaOfMan from '../assets/man-ava.jpg'
+import Cross from '../assets/cross1.svg?react'
 import UserProfile from '../assets/userava.svg?react';
 import NewGroup from '../assets/people.svg?react'
 import NewChannel from '../assets/speakers.svg?react'
@@ -18,7 +21,7 @@ export function Sidebar({ isOpen, onToggle }: SidebarProps) {
     return (
     <div className={`wrap-sidebar ${isOpen ? '' : 'closed'}`}>
         <div className="sidebarbutton">
-            <button id='sidebarButtonInside' className='text' onClick={onToggle}>☰</button>
+            <button id='sidebarButtonInside' className='text' onClick={onToggle}><Cross width={14} height={14} style={{fill: '#6D7883'}}/></button>
         </div>
         <div className="basic-info">
             <img src={avaOfMan} alt="man" className="avatar"/>

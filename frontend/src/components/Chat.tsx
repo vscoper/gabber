@@ -15,7 +15,7 @@ export function Chat() {
             <section className="chat-info-section">
                 <div className="chat-realname-ava">
                     <img className='chat-ava' src={avaOfMan} alt='man'/>
-                    <h2 className='text'>Man</h2>
+                    <h2 className='text' style={{ userSelect: 'none' }}>Man</h2>
                     <Cross className='chat-option-icon' width={14} height={14}/>
                 </div>
                 <div className="chat-options">
